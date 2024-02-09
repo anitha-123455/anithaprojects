@@ -5,7 +5,7 @@ on:
       - main
         devops
 jobs:
-  teams-job:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
