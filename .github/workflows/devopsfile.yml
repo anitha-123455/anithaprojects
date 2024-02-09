@@ -2,7 +2,8 @@ name: hello-world
 on:
   push:
     branches:
-      - main,dev
+      - main
+        devops
 jobs:
   build:
     runs-on: ubuntu-latest
