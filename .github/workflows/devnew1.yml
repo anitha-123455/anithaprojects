@@ -1,0 +1,12 @@
+name: hello-world
+on:
+  push:
+    branches:
+      - dev1
+jobs:
+  devnew:
+    runs-on: windows-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+   
