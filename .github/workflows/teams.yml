@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+        devops
 jobs:
   teams-job:
     runs-on: ubuntu-latest
